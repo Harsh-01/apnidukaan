@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginVertical="7dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/round_corner"
+    android:layout_height="match_parent">
+<!--    <TextView-->
+<!--        android:id="@+id/interested"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Interested For : "-->
+<!--        android:textColor="#1427DA"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_marginVertical="10dp"-->
+<!--        android:textSize="20sp"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/product2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toRightOf="@id/interested"-->
+<!--        android:text=" "-->
+<!--        android:textColor="#E65100"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_marginVertical="10dp"-->
+<!--        android:textSize="20sp"/>-->
+    <EditText
+        android:id="@+id/unitsA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="No. of Units"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_below="@id/shops"
+        android:backgroundTint="#000000"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="20dp"/>
+    <EditText
+        android:id="@+id/shops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:backgroundTint="#000000"
+        android:hint="No. of Shops"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="20dp"/>
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="200dp"
+        android:layout_below="@id/shops"
+        android:layout_toRightOf="@+id/unitsA"
+        android:background="@drawable/next_page_background"
+        android:popupBackground="@drawable/next_page_background"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="7dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-59dp"
+        android:entries="@array/TimeEnquiry"
+        android:layout="@+id/register"
+        android:padding="10dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textColor="#4a148c"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

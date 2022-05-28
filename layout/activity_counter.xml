@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CounterActivity"
+    android:background="#ffffff">
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Product Details"
+        android:textColor="#000000"
+        android:fontFamily="@font/dante"
+        android:textSize="20sp"
+        android:id="@+id/productDetails"
+        android:textAllCaps="false"
+        android:background="@drawable/outline2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative2"
+        android:layout_below="@+id/productDetails">
+    <Button
+        android:id="@+id/sale"
+        android:layout_width="120dp"
+        android:text="Sale!"
+        android:fontFamily="@font/futuralightfont"
+        android:background="#2196F3"
+        android:textAllCaps="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_height="120dp"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="288dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@+id/sale"
+            android:background="#EEEEEE" />
+
+        <Button
+        android:id="@+id/resale"
+            android:fontFamily="@font/futuralightfont"
+        android:layout_toRightOf="@+id/sale"
+        android:layout_width="120dp"
+        android:background="#2196F3"
+        android:textAllCaps="false"
+        android:text="Resale!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+        android:layout_height="120dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="35dp"
+            android:background="#eeeeee"
+            android:layout_height="8dp"
+            android:layout_below="@+id/sale"/>
+    <Button
+        android:id="@+id/referral"
+        android:fontFamily="@font/futuralightfont"
+        android:layout_below="@id/sale"
+        android:layout_width="120dp"
+        android:textAllCaps="false"
+        android:text="Referral!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="120dp"
+        android:background="#2196F3"/>
+
+        <Button
+            android:id="@+id/inquiry"
+            android:fontFamily="@font/futuralightfont"
+            android:layout_below="@id/sale"
+            android:layout_width="120dp"
+            android:textAllCaps="false"
+            android:text="Inquiry!"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/referral"
+            android:textSize="25sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="120dp"
+            android:background="#2196F3"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative2"
+
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/returnbtn"
+        android:fontFamily="@font/dante"
+        android:textAllCaps="false"
+        android:text="Return"
+        android:layout_width="wrap_content"
+        android:textColor="#ffff"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:background="#3b003b "
+        android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/reason"
+            android:fontFamily="@font/dante"
+            android:textAllCaps="false"
+            android:text="Reason"
+            android:layout_width="200dp"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outline"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

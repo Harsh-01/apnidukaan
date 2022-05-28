@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VendorLogin"
+    android:id="@+id/home_search"
+    android:background="#ffffff">
+    <!--    <android.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:theme="@style/ThemeOverlay.AppCompat.Dark"-->
+    <!--        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_c"
+            android:fontFamily="@font/dante"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="Write a post..."
+            android:textColor="#c3000000"
+            android:textSize="25sp" />
+        <!--        <ImageView-->
+        <!--            android:id="@+id/chat"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="65dp"-->
+        <!--            android:layout_margin="3dp"-->
+        <!--            android:padding="4dp"-->
+        <!--            android:src="@drawable/message3"/>-->
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/post"
+            android:layout_margin="10dp"
+            android:text="Write"
+            android:background="@drawable/next_page2back"/>-->
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollsnippet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post1">
+
+        <LinearLayout
+            android:id="@+id/snippet"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:src="@drawable/fendi"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/gucci" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pradashoes" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/versaceshirt" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pradaperfume" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/luiosvittonpurse" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pradasunglasses" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerDashboard"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/scrollsnippet"
+        tools:itemCount="11"
+        />
+    <!-- <RelativeLayout
+         android:id="@+id/progressLayout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#ffff">
+
+         <ProgressBar
+             android:id="@+id/progressBar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"/>
+     </RelativeLayout>-->
+
+</RelativeLayout>

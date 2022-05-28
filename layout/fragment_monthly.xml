@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".fragments.MonthlyFragment"-->
+<!--    android:background="#ffffff">-->
+
+<!--  <RelativeLayout-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="match_parent"-->
+<!--      android:layout_marginTop="25dp">-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/shopsReg"-->
+<!--        android:text=" Shops Registered : "-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="15dp" />-->
+<!--    <EditText-->
+<!--        android:layout_width="70dp"-->
+<!--        android:backgroundTint="@color/colorBlack"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/shopsRegVal"-->
+<!--        android:layout_toRightOf="@+id/shopsReg"-->
+<!--        android:text=" 00"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="4dp"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/distanceCovered"-->
+<!--        android:layout_below="@+id/shopsReg"-->
+<!--        android:text=" DistanceCovered : "-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="15dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="70dp"-->
+<!--        android:backgroundTint="@color/colorBlack"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/distanceCoveredVal"-->
+<!--        android:layout_toRightOf="@+id/distanceCovered"-->
+<!--        android:layout_below="@+id/shopsRegVal"-->
+<!--        android:text="0 km"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/moneyEarned"-->
+<!--        android:layout_below="@+id/distanceCovered"-->
+<!--        android:text=" Money Earned      : "-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="15dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="90dp"-->
+<!--        android:backgroundTint="@color/colorBlack"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/moneyEarnedVal"-->
+<!--        android:layout_toRightOf="@+id/moneyEarned"-->
+<!--        android:layout_below="@+id/distanceCoveredVal"-->
+<!--        android:text="Rs. 00"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/timeTaken"-->
+<!--        android:layout_below="@+id/moneyEarned"-->
+<!--        android:text=" Time Taken           : "-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="15dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="90dp"-->
+<!--        android:backgroundTint="@color/colorBlack"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/timeTakenVal"-->
+<!--        android:layout_toRightOf="@+id/timeTaken"-->
+<!--        android:layout_below="@+id/moneyEarnedVal"-->
+<!--        android:text="0 Hrs."-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/bonus"-->
+<!--        android:layout_below="@+id/timeTaken"-->
+<!--        android:text=" Bonus Earned       : "-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="15dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="70dp"-->
+<!--        android:backgroundTint="@color/colorBlack"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/bonusVal"-->
+<!--        android:layout_toRightOf="@+id/bonus"-->
+<!--        android:layout_below="@+id/timeTakenVal"-->
+<!--        android:text="RS. 0"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+<!--    <Spinner-->
+<!--        android:id="@+id/spinnerA"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:background="@drawable/background_a"-->
+<!--        android:popupBackground="@drawable/background_a"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="27dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:entries="@array/defaultMode"-->
+<!--        android:padding="10dp"-->
+<!--        android:spinnerMode="dropdown"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_below="@+id/bonus"-->
+<!--        android:layout_marginTop="20dp"/>-->
+<!--  </RelativeLayout>-->
+
+<!--</FrameLayout>-->
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TodayFragment"
+    android:background="#ffffff">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="25dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopsReg"
+        android:text=" Shops Registered : "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_margin="15dp" />
+    <TextView
+        android:layout_width="70dp"
+        android:backgroundTint="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopsRegVal"
+        android:layout_toRightOf="@+id/shopsReg"
+        android:text=" 00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="40dp"
+        android:layout_height = "1dp"
+        android:layout_toRightOf="@id/shopsReg"
+        android:layout_below="@+id/shopsRegVal"
+        android:background="#000000"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distanceCovered"
+        android:layout_below="@+id/shopsReg"
+        android:text=" DistanceCovered : "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="70dp"
+        android:backgroundTint="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:id="@+id/distanceCoveredVal"
+        android:layout_toRightOf="@+id/distanceCovered"
+        android:layout_below="@+id/shopsRegVal"
+        android:text="0 km"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="50dp"
+        android:layout_height = "1dp"
+        android:layout_toRightOf="@id/shopsReg"
+        android:layout_below="@+id/distanceCoveredVal"
+        android:background="#000000"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moneyEarned"
+        android:layout_below="@+id/distanceCovered"
+        android:text=" Money Earned      : "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="90dp"
+        android:backgroundTint="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:id="@+id/moneyEarnedVal"
+        android:layout_toRightOf="@+id/moneyEarned"
+        android:layout_below="@+id/distanceCoveredVal"
+        android:text="Rs. 00"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="65dp"
+        android:layout_height = "1dp"
+        android:layout_toRightOf="@id/moneyEarned"
+        android:layout_below="@+id/moneyEarnedVal"
+        android:background="#000000"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeTaken"
+        android:layout_below="@+id/moneyEarned"
+        android:text=" TimeTaken/Shop : "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="90dp"
+        android:backgroundTint="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeTakenVal"
+        android:layout_toRightOf="@+id/timeTaken"
+        android:layout_below="@+id/moneyEarnedVal"
+        android:text="0 Hrs."
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="27dp"/>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="50dp"
+        android:layout_height = "1dp"
+        android:layout_toRightOf="@id/timeTaken"
+        android:layout_below="@+id/timeTakenVal"
+        android:background="#000000"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bonus"
+        android:layout_below="@+id/timeTaken"
+        android:text=" Bonus Earned       : "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="70dp"
+        android:backgroundTint="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:id="@+id/bonusVal"
+        android:layout_toRightOf="@+id/bonus"
+        android:layout_below="@+id/timeTakenVal"
+        android:text="Rs. 0"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="27dp"/>
+    <View
+        android:id="@+id/view5"
+        android:layout_width="60dp"
+        android:layout_height = "1dp"
+        android:layout_toRightOf="@id/bonus"
+        android:layout_below="@+id/bonusVal"
+        android:background="#000000"
+        android:layout_marginTop="8dp"/>
+    <Spinner
+        android:id="@+id/spinnerA"
+        android:layout_width="200dp"
+        android:background="@drawable/background_a"
+        android:popupBackground="@drawable/background_a"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="20dp"
+        android:entries="@array/defaultMode"
+        android:padding="10dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_below="@+id/bonus"
+        android:layout_marginTop="20dp"/>
+  </RelativeLayout>
+
+</FrameLayout>

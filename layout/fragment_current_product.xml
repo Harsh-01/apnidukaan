@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CurrentProductFragment"
+    android:background="#ffffff">>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#ffffff">
+           <ImageButton
+               android:id="@+id/maggie"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/soap2"
+               android:scaleType="fitXY"
+
+              android:layout_margin="20dp"/>
+           <ImageButton
+               android:id="@+id/coffee"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/cream2"
+               android:scaleType="fitXY"
+               android:layout_toRightOf="@id/maggie"
+              android:layout_marginTop="23dp"
+               android:layout_marginLeft="15dp"/>
+
+           <ImageButton
+               android:id="@+id/rin"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/shoes4"
+               android:scaleType="fitXY"
+               android:layout_below="@id/maggie"
+               android:layout_margin="20dp" />
+           <ImageButton
+               android:id="@+id/dove"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/americanfacewash"
+               android:scaleType="fitXY"
+               android:layout_below="@id/maggie"
+               android:layout_margin="20dp"
+               android:layout_toRightOf="@+id/rin"/>
+
+
+
+
+       </RelativeLayout>
+   </ScrollView>
+</FrameLayout>
